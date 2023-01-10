@@ -1,0 +1,21 @@
+body
+{
+	margin: 0;
+}
+
+
+#filter_input
+{
+	width: 225px;
+	height: 35px;
+	border: none;
+	outline: none;
+	background: #f7f7f7;
+	box-shadow: 0 0 1px black;
+}
+
+
+ul li
+{
+	margin: 15px;
+}

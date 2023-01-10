@@ -1,0 +1,39 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#slide_container
+{
+	width: 100%;
+	height: 97vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+
+#slide_container img
+{
+	width: 500px;
+	height: 500px;
+	outline: solid 0.5px black;
+}
+
+
+.slideButton
+{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	margin: 15px;
+	background: lightgreen;
+	cursor: pointer;
+}

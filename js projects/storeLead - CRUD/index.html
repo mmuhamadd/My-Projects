@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StoreLead - ادارة المنشأة الخاصة بك</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="icon" href="assets/images/logo.png">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<header>
+
+    <nav>
+    	<img src="assets/images/logo.png" id="nav_logo" style="float: left;margin-top: 2.5px;">
+    	<a href="https://www.instagram.com/mu71mad" target="_blank" style="display: flex;justify-content: center;align-items: center;height: 50px;width: 70px;color: white;text-decoration: none;">By:MAS</a>
+    </nav>
+
+
+    <div class="container">
+    <input class="input name" placeholder="الأسم" style="width: 100%;">
+	<br>
+	<input class="input type" placeholder="النوع" style="width: 42%;">
+	<input type="number" class="input count" placeholder="العدد" style="width: 42%">
+	<br>
+	<input type="number" class="input price" placeholder="السعر" style="width: 42%;">
+	<input type="number" class="input discount" placeholder="الخصم" style="width: 42%;">
+	<button id="totalPrice">السعر الكلي</button>	
+	<br>
+	<input class="input contact" placeholder="تواصل" style="width: 100%;">	
+	<br>
+    <span style="display: flex;justify-content: center;align-items: center;"><button class="createButton"><img src="assets/images/plus.svg"></button></span>
+    </div>
+
+</header>
+
+<body dir="rtl">
+
+<img src="assets/images/up.svg"/ id="up_button">
+
+
+<div id="loadingPage">
+	<img src="assets/images/loading.gif">
+</div>
+
+
+<div id="content" style="display: flex;justify-content: center;align-items: center;flex-direction: column;margin-top: 15px;">
+
+  <div id="search_container">
+  	<div style="height: 50px;display: flex;justify-content: center;align-items: center;background: #f7f7f7;flex-direction: row;margin-bottom: 15px;">  	
+  	 <input type="text" placeholder="بحث" id="search_box">
+  		<img src="assets/images/search.svg">
+  	</div>
+  </div>
+
+
+
+</div>
+
+
+<script type="text/javascript">
+
+ setTimeout(()=>{
+ 	document.getElementById('loadingPage').classList.add("closing");
+ 	setTimeout(()=>{
+ 		document.getElementById('loadingPage').style.display = 'none';
+ 	},1000)
+ },1000)
+</script>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

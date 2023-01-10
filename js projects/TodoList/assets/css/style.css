@@ -1,0 +1,105 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar 
+{
+    background-color: #fff;
+}
+
+
+::-webkit-scrollbar-thumb
+{
+    background-color: blueviolet;
+    border-radius: 3px;
+}
+
+#container
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#todo_list
+{
+    background: linear-gradient(45deg, #00b6d12e, #4b00ff2e);
+    box-shadow: 1px 1px 2px black;
+    width: 750px;
+    height: 85vh;;
+    margin-top: 2.5vh;
+    border-radius: 9px;
+    
+}
+
+
+#addTaskButton
+{
+        border-radius: 100%;
+        height: 65px;
+        width: 65px;
+        border: none;
+        outline: solid 0.5px gray;
+        background-color: #009aff;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#newDay
+{
+        border-radius: 100%;
+        height: 65px;
+        width: 65px;
+        border: none;
+        outline: solid 0.5px gray;
+        background-color: crimson;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 2px;
+}
+
+
+holder
+{
+    position: fixed;
+    bottom: 45px;;
+    display: flex;
+    justify-content: center;
+    width: 751px;
+}
+
+
+
+#taskDiv
+{
+    width: 100%;
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+
+.task
+{
+    background-color: #fff;
+    width: 80%;
+    height: 55px;
+    margin-left: 10%;
+    margin-top: 19px;
+    margin-bottom: 5px;
+    outline: solid 1px black;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}

@@ -1,0 +1,212 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+header
+{
+	height: 98vh;
+	top: 0;
+	background-image: url(file:///C:/Users/nour/Desktop/%C2%A0/Projects/buy/src/banner-bg.svg);
+}
+
+#logo
+{
+	width: 50px;
+	height: 50px;
+
+}
+
+
+
+navH li
+{
+	display: inline-block;
+	padding: 15px;
+	color: white;
+    font-family: 'Cairo', sans-serif;	
+}
+
+#nav_content
+{
+	width : auto;
+	float: right;
+	cursor: pointer;
+}
+
+
+#signButton
+{
+	width: 150px;
+	height: 50px;
+	border-radius: 9px;
+	background: linear-gradient(to right,#fe8464 0%,#fe6e9a 50%,#fe8464 100%);
+	border: none;
+	outline: none;
+	margin-right: 20px;
+    font-family: 'Cairo', sans-serif;		
+}
+
+
+#descripe
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	margin-top: 155px;
+	background: transparent;
+}
+
+
+#descripe h1,h3
+{
+	color: white;
+    font-family: 'Cairo', sans-serif;		
+}
+
+
+#descripe h1
+{
+	font-size: 35px;
+	border-top: solid 0.5px crimson;
+	border-bottom: solid 0.5px crimson;
+}
+
+#descripe p
+{
+	color: white;
+	width: 350px;
+	text-align: right;
+	font-family: 'Tajawal', sans-serif;
+}
+
+
+#descripe button
+{
+	width: 125px;
+	height: 45px;
+	background: linear-gradient(to right,#33c8c1 0%,#119bd2 50%,#33c8c1 100%);
+	border: none;
+	outline: none;
+	border-radius: 9px;
+	color: white;
+	font-family: 'Tajawal', sans-serif;
+	margin-top: 5px;	
+}
+
+
+#example
+{
+	width: 700px;
+	margin-top: 55px;
+}
+
+
+#clients
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.client
+{
+	width: 85px;
+	margin: 75px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.next_el
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.next_el h1
+{
+	width: 150px;
+	height: 5px;
+	border-bottom: solid 3px crimson;
+	border-width: 5px;
+}
+
+
+.fixed_nav
+{
+	position: fixed;
+	top: 0;
+	animation: x 0.5s 1;
+	background: #f8f9fa;
+	color: black;
+	z-index: 100;
+	width: 100%;
+}
+
+.fixed_nav div li
+{
+	color: black;
+}
+
+.holder
+{
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+@keyframes x
+{
+	from
+	{
+      opacity: -1;
+	}
+	to
+	{
+       opacity: 1;
+	}
+}
+
+
+#sign_divs 
+{
+	background: transparent;
+	position: absolute;
+}
+
+
+.sign_div
+{
+	width: 300px;
+	height: 500px;
+	background: linear-gradient(44deg,#8362f7,#fe7092);;
+	text-align: center;
+	font-family: 'El Messiri', sans-serif;
+	display: inline-block;
+}
+
+
+#wind
+{
+	background: red;
+}
+
+#wind li
+{
+	margin-top: 40px;
+}
